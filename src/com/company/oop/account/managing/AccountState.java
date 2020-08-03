@@ -1,4 +1,4 @@
-package com.company.oop.accountmanaging;
+package com.company.oop.account.managing;
 
 import java.math.BigDecimal;
 import java.util.function.Consumer;

@@ -1,7 +1,6 @@
-package com.company.oop.accountmanaging;
+package com.company.oop.account.managing;
 
 import java.math.BigDecimal;
-import java.util.function.Consumer;
 
 public class Account {
 
@@ -20,7 +19,6 @@ public class Account {
     private void addToBalance(BigDecimal amount) {
         this.balance = this.balance.add(amount);
     }
-
 
     public void withdraw(BigDecimal amount) {
         this.state = this.state.withdraw(this.balance, amount,this::subtractFromBalance);

@@ -1,7 +1,7 @@
-package com.company.oop.accountmanaging.accountstate;
+package com.company.oop.account.managing.accountstate;
 
-import com.company.oop.accountmanaging.AccountState;
-import com.company.oop.accountmanaging.AccountUnfrozen;
+import com.company.oop.account.managing.AccountState;
+import com.company.oop.account.managing.AccountUnfrozen;
 
 import java.math.BigDecimal;
 import java.util.function.Consumer;

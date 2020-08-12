@@ -2,6 +2,7 @@ package com.company.oop.nullcheck;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.util.Optional;
 
 public class TimeLimitedWarranty implements Warranty {
 
@@ -26,5 +27,12 @@ public class TimeLimitedWarranty implements Warranty {
 
     private Long getValidForDays() {
         return validFor.toDays();
+    }
+
+    @Override
+    public Optional<Warranty> filter(LocalDate date) {
+        return date.compareTo(this.dateIssued) >= 0 && date.compareTo(this.getExpireDate()) <= 0
+                ? Optional.of(this)
+                : Optional.empty();
     }
 }

@@ -1,6 +1,7 @@
 package com.company.oop.nullcheck;
 
 import java.time.LocalDate;
+import java.util.Optional;
 
 public class VoidWarranty implements Warranty {
 
@@ -11,4 +12,7 @@ public class VoidWarranty implements Warranty {
     public Warranty on(LocalDate date) {
         return this;
     }
+
+    public Optional<Warranty> filter(LocalDate date) { return Optional.empty(); }
+
 }

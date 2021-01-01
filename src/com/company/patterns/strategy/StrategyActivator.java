@@ -7,6 +7,7 @@ import com.company.patterns.strategy.payment.PeoPay;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StrategyActivator {
@@ -16,44 +17,39 @@ public class StrategyActivator {
     }
 
     public void activate(){
-
-        Item water = createItem("Borjomi", "Water", new BigDecimal(3));
-        Item nuts = createItem("Tasty nuts", "Nuts", new BigDecimal(15));
-        Item milk = createItem("Cow milk", "Cow milk", new BigDecimal(4.5));
-
-        List<Item> items = new ArrayList<>();
-
-        items.add(water);
-        items.add(nuts);
-        items.add(milk);
-
+        List<Item> items = createItems();
         ShoppingCard shoppingCard = createShoppingCard(items);
-        BigDecimal amount = shoppingCard.getUserShopingCarAmount();
+        BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
 
         User RomanDrohobytskyi =  createUser("Roman", "Drohobytskyi", "roma_@gmaik.com", shoppingCard);
         User someOneElse =  createUser("Someone", "Else", "else@gmaiI.com", shoppingCard);
 
-        PeoPay peoPay = new PeoPay(RomanDrohobytskyi.getFirstname() + " " +
+        Payment peoPayPayment = new PeoPay(RomanDrohobytskyi.getFirstname() + " " +
                 RomanDrohobytskyi.getLastname(), RomanDrohobytskyi.getEmail());
 
-        CardPayment cardPayment = new CardPayment(someOneElse.getFirstname() + " " +
+        Payment cardPayment = new CardPayment(someOneElse.getFirstname() + " " +
                 someOneElse.getLastname(), someOneElse.getEmail(),
                 "24442455523423");
 
-        RomanDrohobytskyi.getShoppingCard().pay(peoPay, amount);
+        RomanDrohobytskyi.getShoppingCard().pay(peoPayPayment, amount);
         System.out.println();
         someOneElse.getShoppingCard().pay(cardPayment, amount);
-
     }
 
-    private User createUser(String firstname, String lastname, String email, ShoppingCard shoppingCard){
-        User user = new User(firstname, lastname, email, shoppingCard);
-        return user;
+    private List<Item> createItems() {
+        Item water = createItem("Borjomi", "Water", new BigDecimal(3));
+        Item nuts = createItem("Tasty nuts", "Nuts", new BigDecimal(15));
+        Item milk = createItem("Cow milk", "Cow milk", new BigDecimal(4.5));
+
+        return new ArrayList<>(Arrays.asList(water, nuts, milk));
+    }
+
+    private User createUser(String firstName, String lastName, String email, ShoppingCard shoppingCard){
+        return new User(firstName, lastName, email, shoppingCard);
     }
 
     private Item createItem(String name, String description, BigDecimal price){
-        Item item = new Item(name, description, price);
-        return item;
+        return new Item(name, description, price);
     }
 
     private ShoppingCard  createShoppingCard(List<Item> items){
@@ -61,7 +57,5 @@ public class StrategyActivator {
         shoppingCard.setItems(items);
         return shoppingCard;
     }
-
-
 
 }

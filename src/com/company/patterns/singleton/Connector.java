@@ -12,12 +12,10 @@ public class Connector {
     private Connector(){ }
 
     public static Connector getInstance() {
-        if (connectionUrl != null){
+        if (connectionUrl != null)
             return connectionUrl;
-        }else{
-            connectionUrl = new Connector();
-            return connectionUrl;
-        }
+        else
+            return connectionUrl = new Connector();
     }
 
     @Override

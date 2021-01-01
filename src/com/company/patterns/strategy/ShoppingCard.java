@@ -31,7 +31,7 @@ public class ShoppingCard {
      * Getting amount of all items in shopping card
      * @return amount
      */
-    public BigDecimal getUserShopingCarAmount(){
+    public BigDecimal getUserShoppingCarAmount(){
 
         itemsAmount = new BigDecimal(0);
 

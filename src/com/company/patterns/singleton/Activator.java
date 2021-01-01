@@ -1,6 +1,5 @@
 package com.company.patterns.singleton;
 
-import java.util.logging.Logger;
 
 /**
  * <h2> This is singleton class.</h2>

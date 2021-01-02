@@ -1,4 +1,4 @@
-package com.company.patterns.strategy;
+package com.company.patterns.strategy.item;
 
 import java.math.BigDecimal;
 

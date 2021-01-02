@@ -3,6 +3,7 @@ package com.company.patterns.strategy.payment;
 import java.math.BigDecimal;
 
 public class CardPayment implements Payment {
+
     private String firstLastNames;
     private String email;
     private String cardNumber;
@@ -40,7 +41,7 @@ public class CardPayment implements Payment {
     @Override
     public void pay(BigDecimal price) {
         System.out.println("User: " + getFirstLastNames() + ", " + getEmail());
-        System.out.println("Paid: " + price);
-        System.out.println("By card with " + cardNumber + " car number.");
+        System.out.println("Paid: " + price + " USD");
+        System.out.println("By card with " + getCardNumber() + " card number.");
     }
 }

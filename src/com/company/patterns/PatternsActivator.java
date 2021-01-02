@@ -21,7 +21,4 @@ public class PatternsActivator {
         Printer.printStarsForLength(50);
     }
 
-    public static void strategyActivator(){
-        new StrategyActivator();
-    }
 }

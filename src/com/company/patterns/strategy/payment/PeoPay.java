@@ -31,6 +31,7 @@ public class PeoPay implements Payment {
     @Override
     public void pay(BigDecimal price) {
         System.out.println("User: " + getFirstLastNames() + ", " + getEmail());
-        System.out.println("Paid by PeoPay, amount: " + price);
+        System.out.println("Paid: " + price);
+        System.out.println("Paid by PeoPay payment.");
     }
 }

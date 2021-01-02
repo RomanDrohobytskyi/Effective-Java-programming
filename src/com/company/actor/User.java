@@ -1,6 +1,6 @@
 package com.company.actor;
 
-import com.company.patterns.strategy.ShoppingCard;
+import com.company.patterns.strategy.card.ShoppingCard;
 
 public class User {
 

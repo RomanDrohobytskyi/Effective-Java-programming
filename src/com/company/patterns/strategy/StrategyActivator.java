@@ -1,6 +1,8 @@
 package com.company.patterns.strategy;
 
 import com.company.actor.User;
+import com.company.patterns.strategy.card.ShoppingCard;
+import com.company.patterns.strategy.item.Item;
 import com.company.patterns.strategy.payment.CardPayment;
 import com.company.patterns.strategy.payment.Payment;
 import com.company.patterns.strategy.payment.PeoPay;
@@ -12,50 +14,55 @@ import java.util.List;
 
 public class StrategyActivator {
 
-    public StrategyActivator() {
-        activate();
+    static class Activator {
+        public static void main(String[] args) {
+           new StrategyActivator().activate();
+        }
     }
 
-    public void activate(){
-        List<Item> items = createItems();
-        ShoppingCard shoppingCard = createShoppingCard(items);
+    private void activate() {
+        peoPayPaymentTransaction();
+        System.out.println();
+        cardPaymentTransaction();
+    }
+
+    private void peoPayPaymentTransaction(){
+        List<Item> waterAndNutsItems = waterAndNutsItems();
+        ShoppingCard shoppingCard = new ShoppingCard(waterAndNutsItems);
         BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
 
-        User RomanDrohobytskyi =  createUser("Roman", "Drohobytskyi", "roma_@gmaik.com", shoppingCard);
-        User someOneElse =  createUser("Someone", "Else", "else@gmaiI.com", shoppingCard);
+        User RomanDrohobytskyi =  new User("John", "Noah", "Noah@gmail.com", shoppingCard);
 
         Payment peoPayPayment = new PeoPay(RomanDrohobytskyi.getFirstname() + " " +
                 RomanDrohobytskyi.getLastname(), RomanDrohobytskyi.getEmail());
+
+        RomanDrohobytskyi.getShoppingCard().pay(peoPayPayment, amount);
+    }
+
+    private void cardPaymentTransaction(){
+        List<Item> items = waterAndNutsAndMilkItems();
+        ShoppingCard shoppingCard = new ShoppingCard(items);
+        BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
+
+        User someOneElse =  new User("Bradley", "Adil", "Adil@gmail.com", shoppingCard);
 
         Payment cardPayment = new CardPayment(someOneElse.getFirstname() + " " +
                 someOneElse.getLastname(), someOneElse.getEmail(),
                 "24442455523423");
 
-        RomanDrohobytskyi.getShoppingCard().pay(peoPayPayment, amount);
-        System.out.println();
         someOneElse.getShoppingCard().pay(cardPayment, amount);
     }
 
-    private List<Item> createItems() {
-        Item water = createItem("Borjomi", "Water", new BigDecimal(3));
-        Item nuts = createItem("Tasty nuts", "Nuts", new BigDecimal(15));
-        Item milk = createItem("Cow milk", "Cow milk", new BigDecimal(4.5));
-
+    private List<Item> waterAndNutsAndMilkItems() {
+        Item water = new Item("Borjomi", "Water", BigDecimal.valueOf(3));
+        Item nuts = new Item("Tasty nuts", "Nuts", BigDecimal.valueOf(15));
+        Item milk = new Item("Cow milk", "Cow milk", BigDecimal.valueOf(4.5));
         return new ArrayList<>(Arrays.asList(water, nuts, milk));
     }
 
-    private User createUser(String firstName, String lastName, String email, ShoppingCard shoppingCard){
-        return new User(firstName, lastName, email, shoppingCard);
+    private List<Item> waterAndNutsItems() {
+        Item water = new Item("Borjomi", "Water", BigDecimal.valueOf(3));
+        Item nuts = new Item("Tasty nuts", "Nuts", BigDecimal.valueOf(15));
+        return new ArrayList<>(Arrays.asList(water, nuts));
     }
-
-    private Item createItem(String name, String description, BigDecimal price){
-        return new Item(name, description, price);
-    }
-
-    private ShoppingCard  createShoppingCard(List<Item> items){
-        ShoppingCard shoppingCard = new ShoppingCard();
-        shoppingCard.setItems(items);
-        return shoppingCard;
-    }
-
 }

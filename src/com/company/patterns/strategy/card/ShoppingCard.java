@@ -1,15 +1,16 @@
-package com.company.patterns.strategy;
+package com.company.patterns.strategy.card;
 
-import com.company.patterns.strategy.Item;
+import com.company.patterns.strategy.item.Item;
 import com.company.patterns.strategy.payment.Payment;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCard {
 
-    private List<Item> items;
-    private BigDecimal itemsAmount;
+    private List<Item> items = new ArrayList<>();
+    private BigDecimal itemsAmount = BigDecimal.ZERO;
 
     public List<Item> getItems() {
         return items;
@@ -27,19 +28,21 @@ public class ShoppingCard {
         this.itemsAmount = itemsAmount;
     }
 
+    public ShoppingCard(){}
+
+    public ShoppingCard(List<Item> items) {
+        this.items = items;
+    }
+
     /**
      * Getting amount of all items in shopping card
      * @return amount
      */
     public BigDecimal getUserShoppingCarAmount(){
-
-        itemsAmount = new BigDecimal(0);
-
-        if (items != null && items.size() > 0){
-            for (Item item : items){
-                itemsAmount = itemsAmount.add(item.getPrice());
-            }
-        }
+        itemsAmount = items.stream()
+                .map(Item::getPrice)
+                .reduce(BigDecimal::add)
+                .orElse(BigDecimal.ZERO);
         return itemsAmount;
     }
 

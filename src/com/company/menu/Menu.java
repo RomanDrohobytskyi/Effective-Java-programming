@@ -27,9 +27,6 @@ public class Menu {
             case 1:
                 PatternsActivator.singletonActivator();
                 break;
-            case 2:
-                PatternsActivator.strategyActivator();
-                break;
             case 3:
                 new GenericsMain().main();
                 break;

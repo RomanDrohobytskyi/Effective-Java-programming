@@ -56,7 +56,7 @@ public class StrategyActivator {
     private List<Item> waterAndNutsAndMilkItems() {
         Item water = new Item("Borjomi", "Water", BigDecimal.valueOf(3));
         Item nuts = new Item("Tasty nuts", "Nuts", BigDecimal.valueOf(15));
-        Item milk = new Item("Cow milk", "Cow milk", BigDecimal.valueOf(4.5));
+        Item milk = new Item("Cow milk", "Cow milk", new BigDecimal("4.5"));
         return new ArrayList<>(Arrays.asList(water, nuts, milk));
     }
 

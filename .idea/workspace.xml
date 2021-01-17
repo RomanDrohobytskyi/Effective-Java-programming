@@ -1,40 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c723ea9-ea5f-44b7-9a37-636f3e85337f" name="Default" comment="Null check">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/collections/MainCollections.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/collections/Maps.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/AbstractFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/Activator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxMacOSFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxWindowsOSFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/Button.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/MacOSButton.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/WindowsOSButton.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/Checkbox.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/MacOSCheckbox.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/WindowsOSCheckbox.java" />
+    <list default="true" id="98f57e9c-c2c1-4c7c-887c-4bbd7c9586e2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/roma_.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/actor/User.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/actor/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/menu/Menu.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/menu/Menu.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/multithreading/MainMultithreading.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/multithreading/MainMultithreading.class" />
+      <change beforePath="$PROJECT_DIR$/Effective Java.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/actor/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/actor/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/algorithms/RepeatedStrings.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/generics/GenericsMain$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/generics/GenericsMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/generics/PersonAgeComparator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/generics/SortedPair.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/menu/Menu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/multithreading/MainMultithreading.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/Account.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/AccountState.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/AccountUnfrozen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/EnsureUnfrozen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/accountstate/Active.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/accountstate/Closed.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/accountstate/Frozen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/account/managing/accountstate/NotVerified.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/immutable/Student$StudentService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/immutable/Student.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/Article.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/Demo$Main.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/Demo.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/LifeTimeWarranty.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/Part.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/TimeLimitedWarranty.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/VoidWarranty.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/nullcheck/Warranty.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/oop/optional/OptionalDemo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/PatternsActivator.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/PatternsActivator.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/singleton/Activator.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/singleton/Activator.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/singleton/Connector.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/singleton/Connector.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/PatternsActivator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/singleton/Activator.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/singleton/Connector.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/Item.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/ShoppingCard.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/StrategyActivator.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/StrategyActivator.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/StrategyActivator.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/description.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/CardPayment.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/CardPayment.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/PeoPay.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/PeoPay.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/printer/Printer.class" afterPath="$PROJECT_DIR$/out/production/Effective Java/com/company/printer/Printer.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/multithreading/MainMultithreading.java" afterPath="$PROJECT_DIR$/src/com/company/multithreading/MainMultithreading.java" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/CardPayment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/Payment.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/patterns/strategy/payment/PeoPay.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Effective Java/com/company/printer/Printer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/actor/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/actor/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/algorithms/RepeatedStrings.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/generics/GenericsMain.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/generics/PersonAgeComparator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/generics/SortedPair.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/menu/Menu.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/account/managing/Account.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/account/managing/AccountState.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/account/managing/accountstate/Active.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/account/managing/accountstate/Closed.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/account/managing/accountstate/Frozen.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/account/managing/accountstate/NotVerified.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/immutable/Student.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/Article.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/Demo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/LifeTimeWarranty.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/Part.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/TimeLimitedWarranty.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/VoidWarranty.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/oop/nullcheck/Warranty.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/PatternsActivator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/abstractfactory/AbstractFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/abstractfactory/Activator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/abstractfactory/model/button/MacOSButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/abstractfactory/model/button/WindowsOSButton.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/abstractfactory/model/checkbox/MacOSCheckbox.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/abstractfactory/model/checkbox/WindowsOSCheckbox.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/Activator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/addons/Caramel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/addons/Milk.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/addons/Soy.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/beverages/Espresso.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/beverages/Latte.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/decorators/AddOnDecorator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/decorator/decorators/Beverage.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/Activator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/factory/ComputerFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/model/Computer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/model/ComputerType.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/model/Laptop.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/model/PersonalComputer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/factorymethod/model/Server.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/singleton/Activator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/singleton/Connector.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/strategy/StrategyActivator.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/strategy/card/ShoppingCard.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/strategy/item/Item.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/strategy/payment/CardPayment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/strategy/payment/Payment.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/patterns/strategy/payment/PeoPay.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com.company/printer/Printer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/multithreading/MainMultithreading.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/oop/account/managing/AccountUnfrozen.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/oop/account/managing/EnsureUnfrozen.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/com/company/oop/optional/OptionalDemo.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/patterns/strategy/StrategyActivator.java" afterPath="$PROJECT_DIR$/src/com/company/patterns/strategy/StrategyActivator.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxMacOSFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxWindowsOSFactory.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/Button.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/Checkbox.java" afterPath="" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,149 +123,44 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Activator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/Activator.java">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WindowsOSButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/WindowsOSButton.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/actor/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-              <folding>
-                <element signature="e#147#148#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="459">
+              <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Activator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/Activator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/patterns/abstractfactory/Activator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MacOSButton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/MacOSButton.java">
+      <file leaf-file-name="Demo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/oop/nullcheck/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#143#144#0" expanded="true" />
-                <element signature="e#205#206#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonAndCheckboxWindowsOSFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxWindowsOSFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonAndCheckboxMacOSFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxMacOSFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#462#463#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#598#599#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WindowsOSCheckbox.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/WindowsOSCheckbox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MacOSCheckbox.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/MacOSCheckbox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/Activator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/AbstractFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,20 +170,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>createShoppingCard</find>
-      <find>bigdec</find>
-    </findStrings>
-    <replaceStrings>
-      <replace />
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -216,61 +181,19 @@
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/OneDrive/Рабочий стол/strategy" value="PREVIEW" />
+        <entry key="D:/Studies/Git projects/asseco" value="PREVIEW" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/patterns/singleton/Activator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/singleton/Connector.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/ShoppingCard.java" />
-        <option value="$PROJECT_DIR$/src/com/company/actor/User.java" />
-        <option value="$PROJECT_DIR$/src/com/company/collections/MainCollections.java" />
-        <option value="$PROJECT_DIR$/src/com/company/collections/Maps.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/Beverage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/AddOnDecorator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/Caramel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/Soy.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/Latte.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/addons/Soy.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/addons/Milk.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/beverages/Latte.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/beverages/Espresso.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/Activator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/multithreading/MainMultithreading.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/decorators/Beverage.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/addons/Caramel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/decorator/decorators/AddOnDecorator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/item/Item.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/PatternsActivator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/Activator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/menu/Menu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/card/ShoppingCard.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/payment/PeoPay.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/payment/CardPayment.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factory/model.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factory/model/Computer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factory/model/Laptop.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factory/model/PersonalComputer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factory/model/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/Server.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/ComputerType.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factorymethod/factory/ComputerFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factorymethod/Activator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/Computer.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/strategy/StrategyActivator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/Checkbox.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/Button.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/MacOSButton.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxWindowsFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxWindowsOSFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxMacOSFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/WindowsOSButton.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/WindowsOSCheckbox.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/Activator.java" />
-        <option value="$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/MacOSCheckbox.java" />
+        <option value="$PROJECT_DIR$/src/main/java/effective.java.com/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/effective.java.com/company/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -280,15 +203,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="width" value="697" />
-    <option name="height" value="775" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
-  <component name="ProjectId" id="1fgRntpSHeG9dAxCUxKUvPa0s6T" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -304,114 +232,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
+              <item name="EffectiveJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EffectiveJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
+              <item name="EffectiveJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EffectiveJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
+              <item name="EffectiveJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EffectiveJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
+              <item name="EffectiveJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EffectiveJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="button" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractfactory" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="checkbox" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Effective Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Effective Java" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company.oop.nullcheck" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -425,113 +283,133 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Activator (2)">
-    <configuration name="Activator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.patterns.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.patterns.factorymethod.Activator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Effective Java" />
-      <envs />
-    </configuration>
-    <configuration name="Activator (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.company.patterns.abstractfactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.patterns.abstractfactory.Activator" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Effective Java" />
-      <envs />
+  <component name="RunManager" selected="Application.Activator">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
     </configuration>
     <configuration name="Activator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.patterns.decorator.*" />
+          <option name="PATTERN" value="effective.java.com.company.patterns.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.patterns.decorator.Activator" />
+      <option name="MAIN_CLASS_NAME" value="effective.java.com.company.patterns.abstractfactory.Activator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Effective Java" />
+      <module name="EffectiveJava" />
       <envs />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Effective Java" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-    </configuration>
-    <configuration name="StrategyActivator$Activator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.company.patterns.strategy.*" />
+          <option name="PATTERN" value="effective.java.com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.company.patterns.strategy.StrategyActivator$Activator" />
+      <option name="MAIN_CLASS_NAME" value="effective.java.com.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Effective Java" />
+      <module name="EffectiveJava" />
       <envs />
     </configuration>
-    <list size="5">
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.Activator" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StrategyActivator$Activator" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Activator (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Activator (2)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Activator (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Activator (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StrategyActivator$Activator" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Activator" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Activator" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -543,717 +421,109 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9c723ea9-ea5f-44b7-9a37-636f3e85337f" name="Default" comment="" />
-      <created>1563300318530</created>
+      <changelist id="98f57e9c-c2c1-4c7c-887c-4bbd7c9586e2" name="Default" comment="" />
+      <created>1610883062572</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563300318530</updated>
-      <workItem from="1563300322043" duration="1644000" />
-      <workItem from="1563382620766" duration="638000" />
-      <workItem from="1563718712022" duration="3130000" />
-      <workItem from="1563996317821" duration="805000" />
-      <workItem from="1569866447563" duration="6732000" />
-      <workItem from="1575728969758" duration="4460000" />
-      <workItem from="1576405674078" duration="1340000" />
-      <workItem from="1579634492162" duration="1300000" />
-      <workItem from="1579714955177" duration="1872000" />
-      <workItem from="1588786081753" duration="4639000" />
-      <workItem from="1588830753327" duration="1601000" />
-      <workItem from="1590732999574" duration="1578000" />
-      <workItem from="1591119181965" duration="1447000" />
-      <workItem from="1594235827802" duration="2016000" />
-      <workItem from="1594926248997" duration="6314000" />
-      <workItem from="1595432605932" duration="769000" />
-      <workItem from="1596364251710" duration="8582000" />
-      <workItem from="1596486495398" duration="736000" />
-      <workItem from="1597489028783" duration="583000" />
-      <workItem from="1597687743719" duration="590000" />
-      <workItem from="1597774782316" duration="1902000" />
-      <workItem from="1599898143121" duration="4952000" />
-      <workItem from="1600321429004" duration="1140000" />
-      <workItem from="1600406686222" duration="1252000" />
-      <workItem from="1600618970464" duration="1993000" />
-      <workItem from="1600976805267" duration="15000" />
-      <workItem from="1609081001338" duration="2294000" />
-      <workItem from="1609527447164" duration="3234000" />
-      <workItem from="1609579801123" duration="6000" />
-      <workItem from="1609579859386" duration="4887000" />
-      <workItem from="1609676405729" duration="3356000" />
-      <workItem from="1609781564171" duration="3886000" />
+      <updated>1610883062572</updated>
+      <workItem from="1610883066461" duration="1157000" />
     </task>
-    <task id="LOCAL-00001" summary="ReadMe file added">
-      <created>1563301327853</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563301327853</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Singleton pattern added.">
-      <created>1563722369980</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1563722369980</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Uncommitted files for Singleton pattern">
-      <created>1563722565652</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1563722565652</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Strategy pattern">
-      <created>1569871500635</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1569871500635</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Account state OOP">
-      <created>1594237646109</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1594237646109</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Null check">
-      <created>1596486621233</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1596486621233</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Design patterns: Singleton, Strategy, Decorator">
-      <created>1609530442954</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1609530442954</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Strategy Pattern refactoring">
-      <created>1609593553254</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1609593553254</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Factory method design pattern">
-      <created>1609677535650</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1609677535650</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80766000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="1157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1098" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21251349" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21858217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39805827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960325" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="ReadMe file added" />
-    <MESSAGE value="Singleton pattern added." />
-    <MESSAGE value="Uncommitted files for Singleton pattern" />
-    <MESSAGE value="Strategy pattern" />
-    <MESSAGE value="Account state OOP" />
-    <MESSAGE value="Null check" />
-    <MESSAGE value="Design patterns: Singleton, Strategy, Decorator" />
-    <MESSAGE value="Strategy Pattern refactoring" />
-    <MESSAGE value="Factory method design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Factory method design pattern" />
-  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/com/company/oop/nullcheck/VoidWarranty.java</url>
-          <line>8</line>
-          <properties class="com.company.oop.nullcheck.VoidWarranty" method="claim">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/oop/nullcheck/Part.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/oop/nullcheck/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="50" lean-forward="false" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/oop/nullcheck/TimeLimitedWarranty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/oop/nullcheck/LifeTimeWarranty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/oop/nullcheck/Warranty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/oop/nullcheck/VoidWarranty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="11" column="38" lean-forward="false" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#117#118#0" expanded="false" />
-            <element signature="e#150#151#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/collections/Maps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/singleton/Connector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/singleton/Activator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/description.txt" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/collections/MainCollections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/multithreading/MainMultithreading.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/decorators/AddOnDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/decorators/Beverage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/beverages/Latte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/beverages/Espresso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/addons/Caramel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/addons/Milk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/addons/Soy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/Activator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/item/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/Activator.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/PatternsActivator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/actor/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="459">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/menu/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/patterns/abstractfactory/Activator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        <state relative-caret-position="68">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/actor/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#758#759#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/card/ShoppingCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#792#793#0" expanded="false" />
-            <element signature="e#1187#1188#0" expanded="false" />
-            <element signature="e#1227#1228#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/payment/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/payment/PeoPay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/payment/CardPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="34" column="80" lean-forward="false" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factory/model.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/PersonalComputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#360#361#0" expanded="false" />
-            <element signature="e#386#387#0" expanded="false" />
-            <element signature="e#430#431#0" expanded="false" />
-            <element signature="e#456#457#0" expanded="false" />
-            <element signature="e#500#501#0" expanded="false" />
-            <element signature="e#526#527#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/Computer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/ComputerType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/Laptop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-          <folding>
-            <element signature="e#340#341#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/model/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="e#340#341#0" expanded="false" />
-            <element signature="e#366#367#0" expanded="false" />
-            <element signature="e#410#411#0" expanded="false" />
-            <element signature="e#436#437#0" expanded="false" />
-            <element signature="e#480#481#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/factory/ComputerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/strategy/StrategyActivator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/Checkbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxMacOSFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/MacOSButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/AbstractFactory.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/decorator/Activator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/factorymethod/Activator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/effective.java.com/company/oop/nullcheck/Demo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="41" lean-forward="false" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="238">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/factory/ButtonAndCheckboxWindowsOSFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/button/WindowsOSButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/WindowsOSCheckbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/Activator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/patterns/abstractfactory/model/checkbox/MacOSCheckbox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Effective Java</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
-    =======
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; 2dfbf7867d5dc7447807c92b627af3fe1f87aa0b
   </component>
 </project>

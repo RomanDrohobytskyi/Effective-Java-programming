@@ -19,6 +19,6 @@ public class Milk extends AddOnDecorator {
 
     @Override
     public String description() {
-        return " With Milk";
+        return beverage.description() + " With Milk";
     }
 }

@@ -3,10 +3,11 @@ package effective.java.com.company.patterns.abstractfactory;
 import effective.java.com.company.patterns.abstractfactory.factory.ButtonAndCheckboxFactory;
 import effective.java.com.company.patterns.abstractfactory.model.button.Button;
 import effective.java.com.company.patterns.abstractfactory.model.checkbox.Checkbox;
+import lombok.Getter;
 
 public class AbstractFactory {
-    private final Button button;
-    private final Checkbox checkbox;
+    @Getter private final Button button;
+    @Getter private final Checkbox checkbox;
 
     public AbstractFactory(ButtonAndCheckboxFactory factory) {
         button = factory.createButton();

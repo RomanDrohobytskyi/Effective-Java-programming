@@ -19,7 +19,7 @@ public class Soy extends AddOnDecorator {
 
     @Override
     public String description() {
-        return " With Soy";
+        return beverage.description() + " With Soy";
     }
 
 }

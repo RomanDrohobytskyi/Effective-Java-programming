@@ -1,6 +1,6 @@
 package effective.java.com.company.generics;
 
-import effective.java.com.company.actor.Person;
+import effective.java.com.company.generics.actor.Person;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -55,12 +55,7 @@ public class GenericsMain {
     }
 
     private void sortByAge(List<Person> persons){
-        Collections.sort(persons, new Comparator<Person>() {
-            @Override
-            public int compare(Person person1, Person person2) {
-                return Integer.compare(person1.getAge(), person2.getAge());
-            }
-        });
+        persons.sort(Comparator.comparingInt(Person::getAge));
     }
 
     private void sortByLambda(List<Person> persons){
@@ -68,7 +63,7 @@ public class GenericsMain {
     }
 
     private void sortByAgeComparator(List<Person> persons){
-        Collections.sort(persons, new PersonAgeComparator());
+        persons.sort(new PersonAgeComparator());
     }
 
     private <T> T min(List<T> values, Comparator<T> comparator){

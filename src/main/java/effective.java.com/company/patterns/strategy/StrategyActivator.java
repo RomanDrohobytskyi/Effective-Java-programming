@@ -1,6 +1,6 @@
 package effective.java.com.company.patterns.strategy;
 
-import effective.java.com.company.actor.User;
+import effective.java.com.company.generics.actor.User;
 import effective.java.com.company.patterns.strategy.card.ShoppingCard;
 import effective.java.com.company.patterns.strategy.item.Item;
 import effective.java.com.company.patterns.strategy.payment.CardPayment;

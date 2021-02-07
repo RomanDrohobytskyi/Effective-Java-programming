@@ -1,6 +1,6 @@
 package effective.java.com.company.generics;
 
-import effective.java.com.company.actor.Person;
+import effective.java.com.company.generics.actor.Person;
 
 import java.util.Comparator;
 

@@ -1,6 +1,10 @@
 package effective.java.com.company.patterns.factorymethod.factory;
 
-import effective.java.com.company.patterns.factorymethod.model.*;
+import effective.java.com.company.patterns.factorymethod.model.Computer;
+import effective.java.com.company.patterns.factorymethod.model.Server;
+import effective.java.com.company.patterns.factorymethod.model.ComputerType;
+import effective.java.com.company.patterns.factorymethod.model.Laptop;
+import effective.java.com.company.patterns.factorymethod.model.PersonalComputer;
 
 public class ComputerFactory {
 

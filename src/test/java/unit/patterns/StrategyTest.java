@@ -1,4 +1,4 @@
-package effective.java.com.company.patterns.strategy;
+package unit.patterns;
 
 import effective.java.com.company.generics.actor.User;
 import effective.java.com.company.patterns.strategy.card.ShoppingCard;
@@ -6,27 +6,17 @@ import effective.java.com.company.patterns.strategy.item.Item;
 import effective.java.com.company.patterns.strategy.payment.CardPayment;
 import effective.java.com.company.patterns.strategy.payment.Payment;
 import effective.java.com.company.patterns.strategy.payment.PeoPay;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class StrategyActivator {
+public class StrategyTest {
 
-    static class Activator {
-        public static void main(String[] args) {
-           new StrategyActivator().activate();
-        }
-    }
-
-    private void activate() {
-        peoPayPaymentTransaction();
-        System.out.println();
-        cardPaymentTransaction();
-    }
-
-    private void peoPayPaymentTransaction(){
+    @Test
+    public void shouldPayByPeoPay(){
         List<Item> waterAndNutsItems = waterAndNutsItems();
         ShoppingCard shoppingCard = new ShoppingCard(waterAndNutsItems);
         BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
@@ -39,7 +29,8 @@ public class StrategyActivator {
         RomanDrohobytskyi.getShoppingCard().pay(peoPayPayment, amount);
     }
 
-    private void cardPaymentTransaction(){
+    @Test
+    public void shouldPayByCard(){
         List<Item> items = waterAndNutsAndMilkItems();
         ShoppingCard shoppingCard = new ShoppingCard(items);
         BigDecimal amount = shoppingCard.getUserShoppingCarAmount();

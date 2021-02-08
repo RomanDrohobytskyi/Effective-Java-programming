@@ -5,7 +5,7 @@ import effective.java.com.company.patterns.decorator.decorators.Beverage;
 
 public class Caramel extends AddOnDecorator {
 
-    private final static int CARAMEL_COST = 3;
+    public final static int COST = 3;
     private Beverage beverage;
 
     public Caramel(Beverage beverage) {
@@ -14,7 +14,7 @@ public class Caramel extends AddOnDecorator {
 
     @Override
     public int cost() {
-        return beverage.cost() + CARAMEL_COST;
+        return beverage.cost() + COST;
     }
 
     @Override

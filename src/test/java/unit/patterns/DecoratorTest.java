@@ -15,7 +15,7 @@ public class DecoratorTest {
     public void shouldBeEspresso(){
         Espresso espresso = new Espresso();
 
-        assertTrue(espresso.cost() == 1);
+        assertTrue(espresso.cost() == Espresso.COST);
         assertTrue(espresso.description().equals("Espresso"));
         System.out.println(espresso.description());
     }
@@ -25,7 +25,7 @@ public class DecoratorTest {
         Espresso espresso = new Espresso();
         Milk milk = new Milk(espresso);
 
-        assertTrue(milk.cost() == (espresso.cost() + 1));
+        assertTrue(milk.cost() == (Espresso.COST + Milk.COST));
         System.out.println(milk.description());
     }
 
@@ -35,8 +35,8 @@ public class DecoratorTest {
         Caramel caramel = new Caramel(latte);
         Soy soy = new Soy(caramel);
 
-        assertTrue(latte.cost() == 3);
-        assertTrue(soy.cost() == (caramel.cost() + 2));
+        assertTrue(latte.cost() == Latte.COST);
+        assertTrue(soy.cost() == (Latte.COST + Caramel.COST + Soy.COST));
         System.out.println(soy.description());
     }
 }

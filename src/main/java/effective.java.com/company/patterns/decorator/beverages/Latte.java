@@ -4,11 +4,11 @@ import effective.java.com.company.patterns.decorator.decorators.Beverage;
 
 public class Latte extends Beverage {
 
-    private final static int LATTE_COST = 3;
+    public final static int COST = 3;
 
     @Override
     public int cost() {
-        return LATTE_COST;
+        return COST;
     }
 
     @Override

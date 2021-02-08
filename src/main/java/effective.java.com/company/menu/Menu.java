@@ -1,17 +1,12 @@
 package effective.java.com.company.menu;
 
 import effective.java.com.company.generics.GenericsMain;
-import effective.java.com.company.patterns.PatternsActivator;
 
 import java.util.Scanner;
 
 public class Menu {
 
     public void menu(){
-
-        System.out.println("*** PATTERNS ***");
-        System.out.println("Singleton - 1");
-        System.out.println("Strategy - 2");
         System.out.println("*** GENERICS ***");
         System.out.println("Sorting - 3");
         System.out.println("");
@@ -24,9 +19,6 @@ public class Menu {
 
     private void runMethod(int choice){
         switch (choice){
-            case 1:
-                PatternsActivator.singletonActivator();
-                break;
             case 3:
                 new GenericsMain().main();
                 break;

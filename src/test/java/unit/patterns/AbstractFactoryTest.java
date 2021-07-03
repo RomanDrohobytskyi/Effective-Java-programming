@@ -1,10 +1,10 @@
 package unit.patterns;
 
-import effective.java.com.company.patterns.abstractfactory.AbstractFactory;
-import effective.java.com.company.patterns.abstractfactory.factory.ButtonAndCheckboxMacOSFactory;
-import effective.java.com.company.patterns.abstractfactory.factory.ButtonAndCheckboxWindowsOSFactory;
-import effective.java.com.company.patterns.abstractfactory.model.button.MacOSButton;
-import effective.java.com.company.patterns.abstractfactory.model.button.WindowsOSButton;
+import effective.java.com.patterns.abstractfactory.AbstractFactory;
+import effective.java.com.patterns.abstractfactory.factory.ButtonAndCheckboxMacOSFactory;
+import effective.java.com.patterns.abstractfactory.factory.ButtonAndCheckboxWindowsOSFactory;
+import effective.java.com.patterns.abstractfactory.model.button.MacOSButton;
+import effective.java.com.patterns.abstractfactory.model.button.WindowsOSButton;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

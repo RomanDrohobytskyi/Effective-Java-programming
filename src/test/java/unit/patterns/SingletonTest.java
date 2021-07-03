@@ -1,7 +1,7 @@
 package unit.patterns;
 
-import effective.java.com.company.patterns.singleton.Activator;
-import effective.java.com.company.patterns.singleton.Connector;
+import effective.java.com.patterns.singleton.Activator;
+import effective.java.com.patterns.singleton.Connector;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 

@@ -1,10 +1,10 @@
 package unit.patterns;
 
-import effective.java.com.company.patterns.decorator.addons.Caramel;
-import effective.java.com.company.patterns.decorator.addons.Milk;
-import effective.java.com.company.patterns.decorator.addons.Soy;
-import effective.java.com.company.patterns.decorator.beverages.Espresso;
-import effective.java.com.company.patterns.decorator.beverages.Latte;
+import effective.java.com.patterns.decorator.addons.Caramel;
+import effective.java.com.patterns.decorator.addons.Milk;
+import effective.java.com.patterns.decorator.addons.Soy;
+import effective.java.com.patterns.decorator.beverages.Espresso;
+import effective.java.com.patterns.decorator.beverages.Latte;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;

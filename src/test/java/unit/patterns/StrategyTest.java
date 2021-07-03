@@ -1,11 +1,11 @@
 package unit.patterns;
 
-import effective.java.com.company.generics.actor.User;
-import effective.java.com.company.patterns.strategy.card.ShoppingCard;
-import effective.java.com.company.patterns.strategy.item.Item;
-import effective.java.com.company.patterns.strategy.payment.CardPayment;
-import effective.java.com.company.patterns.strategy.payment.Payment;
-import effective.java.com.company.patterns.strategy.payment.PeoPay;
+import effective.java.com.generics.model.User;
+import effective.java.com.patterns.strategy.card.ShoppingCard;
+import effective.java.com.patterns.strategy.item.Item;
+import effective.java.com.patterns.strategy.payment.CardPayment;
+import effective.java.com.patterns.strategy.payment.Payment;
+import effective.java.com.patterns.strategy.payment.PeoPay;
 import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;

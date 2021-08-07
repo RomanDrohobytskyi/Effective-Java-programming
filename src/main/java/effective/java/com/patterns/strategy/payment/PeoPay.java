@@ -1,36 +1,25 @@
 package effective.java.com.patterns.strategy.payment;
 
+import effective.java.com.generics.model.User;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
 import java.math.BigDecimal;
 
+@Builder
+@Getter
+@Setter
 public class PeoPay implements Payment {
+    private User user;
 
-    private String firstLastNames;
-    private String email;
-
-    public String getFirstLastNames() {
-        return firstLastNames;
-    }
-
-    public void setFirstLastNames(String firstLastNames) {
-        this.firstLastNames = firstLastNames;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public PeoPay(String firstLastNames, String email) {
-        this.firstLastNames = firstLastNames;
-        this.email = email;
+    public PeoPay(User user) {
+        this.user = user;
     }
 
     @Override
     public void pay(BigDecimal price) {
-        System.out.println("User: " + getFirstLastNames() + ", " + getEmail());
+        System.out.println("User e-mail address: " + user.getEmail());
         System.out.println("Paid: " + price);
         System.out.println("Paid by PeoPay payment.");
     }

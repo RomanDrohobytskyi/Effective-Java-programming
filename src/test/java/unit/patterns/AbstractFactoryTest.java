@@ -10,9 +10,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class AbstractFactoryTest {
-
-    private AbstractFactory macButtons = new AbstractFactory(new ButtonAndCheckboxMacOSFactory());
-    private AbstractFactory windowsButtons = new AbstractFactory(new ButtonAndCheckboxWindowsOSFactory());
+    private final AbstractFactory macButtons = new AbstractFactory(new ButtonAndCheckboxMacOSFactory());
+    private final AbstractFactory windowsButtons = new AbstractFactory(new ButtonAndCheckboxWindowsOSFactory());
 
     private AbstractFactory getButtons() {
         String osName = System.getProperty("os.name").toLowerCase();

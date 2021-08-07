@@ -2,25 +2,25 @@ package unit.core;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class Variables {
+public class VariablesTest {
 
     @Test
-    void shouldBeSameReference(){
+    void shouldBeSameReference() {
         Integer x = 111;
         Integer y = Integer.valueOf("111");
 
-        assertTrue(x == y);
+        assertSame(x, y);
     }
 
     @Test
-    void shouldBeDifferentReference(){
+    void shouldBeDifferentReference() {
         Integer x = 111;
         Integer y = Integer.valueOf("111");
         Integer z = new Integer(111);
 
-        assertTrue(y != z);
-        assertTrue(x != z);
+        assertNotSame(y, z);
+        assertNotSame(x, z);
     }
 }

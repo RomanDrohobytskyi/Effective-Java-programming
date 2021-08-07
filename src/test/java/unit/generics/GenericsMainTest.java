@@ -12,13 +12,11 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GenericsMainTest {
-    private static GenericsMain genericsMain;
-    private static List<Person> persons;
+    private final static GenericsMain genericsMain = new GenericsMain();;
+    private final static List<Person> persons = new ArrayList<>();
 
     @BeforeAll
     public static void initializePersons() {
-        genericsMain = new GenericsMain();
-        persons = new ArrayList<>();
         persons.add(new Person("Tom Hanks", 63));
         persons.add(new Person("Leonardo DiCaprio", 45));
         persons.add(new Person("Robert De Niro", 76));

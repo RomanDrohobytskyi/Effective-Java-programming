@@ -1,47 +1,25 @@
 package effective.java.com.patterns.strategy.payment;
 
+import effective.java.com.generics.model.User;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+
 import java.math.BigDecimal;
 
+@Builder
+@Getter
+@Setter
+@RequiredArgsConstructor
 public class CardPayment implements Payment {
-
-    private String firstLastNames;
-    private String email;
-    private String cardNumber;
-
-    public String getFirstLastNames() {
-        return firstLastNames;
-    }
-
-    public void setFirstLastNames(String firstLastNames) {
-        this.firstLastNames = firstLastNames;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getCardNumber() {
-        return cardNumber;
-    }
-
-    public void setCardNumber(String cardNumber) {
-        this.cardNumber = cardNumber;
-    }
-
-    public CardPayment(String firstLastNames, String email, String cardNumber) {
-        this.firstLastNames = firstLastNames;
-        this.email = email;
-        this.cardNumber = cardNumber;
-    }
+    private final User user;
+    private final String cardNumber;
 
     @Override
     public void pay(BigDecimal price) {
-        System.out.println("User: " + getFirstLastNames() + ", " + getEmail());
+        System.out.println("User: " + user.getEmail());
         System.out.println("Paid: " + price + " USD");
-        System.out.println("By card with " + getCardNumber() + " card number.");
+        System.out.println("By card with " + cardNumber + " card number.");
     }
 }

@@ -41,9 +41,8 @@ public class User {
         this.shoppingCard = shoppingCard;
     }
 
-    public User(String firstname, String lastname, String email, ShoppingCard shoppingCard) {
+    public User(String firstname, String email, ShoppingCard shoppingCard) {
         this.firstname = firstname;
-        this.lastname = lastname;
         this.email = email;
         this.shoppingCard = shoppingCard;
     }

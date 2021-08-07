@@ -13,36 +13,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class StrategyTest {
-
-    @Test
-    public void shouldPayByPeoPay(){
-        List<Item> waterAndNutsItems = waterAndNutsItems();
-        ShoppingCard shoppingCard = new ShoppingCard(waterAndNutsItems);
-        BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
-
-        User RomanDrohobytskyi =  new User("John", "Noah", "Noah@gmail.com", shoppingCard);
-
-        Payment peoPayPayment = new PeoPay(RomanDrohobytskyi.getFirstname() + " " +
-                RomanDrohobytskyi.getLastname(), RomanDrohobytskyi.getEmail());
-
-        RomanDrohobytskyi.getShoppingCard().pay(peoPayPayment, amount);
-    }
-
-    @Test
-    public void shouldPayByCard(){
-        List<Item> items = waterAndNutsAndMilkItems();
-        ShoppingCard shoppingCard = new ShoppingCard(items);
-        BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
-
-        User someOneElse =  new User("Bradley", "Adil", "Adil@gmail.com", shoppingCard);
-
-        Payment cardPayment = new CardPayment(someOneElse.getFirstname() + " " +
-                someOneElse.getLastname(), someOneElse.getEmail(),
-                "24442455523423");
-
-        someOneElse.getShoppingCard().pay(cardPayment, amount);
-    }
+    private final List<Item> waterAndNutsItems = waterAndNutsItems();
+    private final List<Item> waterAndNutsAndMilkItems = waterAndNutsAndMilkItems();
 
     private List<Item> waterAndNutsAndMilkItems() {
         Item water = new Item("Borjomi", "Water", BigDecimal.valueOf(3));
@@ -55,5 +30,25 @@ public class StrategyTest {
         Item water = new Item("Borjomi", "Water", BigDecimal.valueOf(3));
         Item nuts = new Item("Tasty nuts", "Nuts", BigDecimal.valueOf(15));
         return new ArrayList<>(Arrays.asList(water, nuts));
+    }
+
+    @Test
+    public void shouldPayByPeoPay(){
+        ShoppingCard shoppingCard = new ShoppingCard(waterAndNutsItems);
+        BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
+        User user =  new User("John", "Noah@gmail.com", shoppingCard);
+        Payment peoPayPayment = new PeoPay(user);
+
+        user.getShoppingCard().pay(peoPayPayment, amount);
+    }
+
+    @Test
+    public void shouldPayByCard(){
+        ShoppingCard shoppingCard = new ShoppingCard(waterAndNutsAndMilkItems);
+        BigDecimal amount = shoppingCard.getUserShoppingCarAmount();
+        User user =  new User("Bradley", "Adil@gmail.com", shoppingCard);
+        Payment cardPayment = new CardPayment(user, "24442455523423");
+
+        user.getShoppingCard().pay(cardPayment, amount);
     }
 }

@@ -1,14 +1,14 @@
-package effective.java.com.functional.programming.service;
+package effective.java.com.functional.programming.account.module.service;
 
-import effective.java.com.functional.programming.exception.EntityNotFoundException;
-import effective.java.com.functional.programming.model.Account;
+import effective.java.com.functional.programming.account.module.exception.EntityNotFoundException;
+import effective.java.com.functional.programming.account.module.model.Account;
 import lombok.AllArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.Month;
 import java.util.*;
 
-import static effective.java.com.functional.programming.model.Sex.MALE;
+import static effective.java.com.functional.programming.bank.module.model.Gender.*;
 import static java.util.Comparator.comparing;
 import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.*;
@@ -48,7 +48,7 @@ public class AccountService {
      */
     public Map<Boolean, List<Account>> partitionMaleAccounts() {
         return accounts.stream()
-                .collect(partitioningBy(account -> account.getSex().equals(MALE)));
+                .collect(partitioningBy(account -> account.getGender().equals(MALE)));
     }
 
     /**

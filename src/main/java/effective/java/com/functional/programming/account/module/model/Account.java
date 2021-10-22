@@ -1,5 +1,6 @@
-package effective.java.com.functional.programming.model;
+package effective.java.com.functional.programming.account.module.model;
 
+import effective.java.com.functional.programming.bank.module.model.Gender;
 import lombok.*;
 
 import java.math.BigDecimal;
@@ -17,7 +18,7 @@ public class Account {
     private String lastName;
     private String email;
     private LocalDate birthday;
-    private Sex sex;
+    private Gender gender;
     private LocalDate creationDate;
     private BigDecimal balance = BigDecimal.ZERO;
 }

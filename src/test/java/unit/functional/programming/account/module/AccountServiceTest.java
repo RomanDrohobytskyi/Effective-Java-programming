@@ -1,8 +1,8 @@
-package unit.functional.programming;
+package unit.functional.programming.account.module;
 
-import effective.java.com.functional.programming.exception.EntityNotFoundException;
-import effective.java.com.functional.programming.model.Account;
-import effective.java.com.functional.programming.service.AccountService;
+import effective.java.com.functional.programming.account.module.exception.EntityNotFoundException;
+import effective.java.com.functional.programming.account.module.model.Account;
+import effective.java.com.functional.programming.account.module.service.AccountService;
 import org.junit.jupiter.api.*;
 
 import java.math.BigDecimal;
@@ -10,8 +10,7 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.*;
 
-import static effective.java.com.functional.programming.model.Sex.FEMALE;
-import static effective.java.com.functional.programming.model.Sex.MALE;
+import static effective.java.com.functional.programming.bank.module.model.Gender.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
@@ -106,7 +105,6 @@ public class AccountServiceTest {
         assertEquals(BigDecimal.valueOf(241864), totalBalance);
     }
 
-
     @Test
     @Order(7)
     void sortByFirstAndLastNames() {
@@ -116,7 +114,6 @@ public class AccountServiceTest {
         assertEquals(4L, sortedList.get(1).getId().longValue());
         assertEquals(3L, sortedList.get(2).getId().longValue());
         assertEquals(2L, sortedList.get(3).getId().longValue());
-
     }
 
     @Test

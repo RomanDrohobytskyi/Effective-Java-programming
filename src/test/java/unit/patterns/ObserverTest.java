@@ -1,75 +1,77 @@
 package unit.patterns;
 
-import effective.java.com.patterns.observer.PhoneDisplay;
-import effective.java.com.patterns.observer.observable.WeatherStation;
+import effective.java.com.patterns.observer.CurrentConditionsDisplay;
+import effective.java.com.patterns.observer.ForecastDisplay;
+import effective.java.com.patterns.observer.HeatIndexDisplay;
+import effective.java.com.patterns.observer.observable.WeatherData;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ObserverTest {
-    private WeatherStation weatherStation;
+    private WeatherData weatherData;
 
     @BeforeEach
     public void init() {
-         this.weatherStation = new WeatherStation();
+         this.weatherData = new WeatherData();
     }
 
     @Test
     void shouldAddObserver() {
-        // given
-        PhoneDisplay phoneDisplay = new PhoneDisplay(weatherStation);
-
         // when
-        weatherStation.add(phoneDisplay);
+        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+        HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
         // then
-        assertEquals(1, weatherStation.getObservers().size());
-       assertTrue(weatherStation.getObservers().contains(phoneDisplay));
+        assertEquals(3, weatherData.getObservers().size());
+        assertTrue(weatherData.getObservers().contains(currentConditionsDisplay));
+        assertTrue(weatherData.getObservers().contains(forecastDisplay));
+        assertTrue(weatherData.getObservers().contains(heatIndexDisplay));
     }
 
     @Test
     void shouldRemoveObserver() {
         // given
-        PhoneDisplay phoneDisplay = new PhoneDisplay(weatherStation);
-        weatherStation.add(phoneDisplay);
+        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
         // when
-        weatherStation.remove(phoneDisplay);
+        weatherData.removeObserver(currentConditionsDisplay);
 
         // then
-        assertEquals(0, weatherStation.getObservers().size());
-        assertFalse(weatherStation.getObservers().contains(phoneDisplay));
+        assertEquals(1, weatherData.getObservers().size());
+        assertFalse(weatherData.getObservers().contains(currentConditionsDisplay));
+        assertTrue(weatherData.getObservers().contains(forecastDisplay));
     }
 
     @Test
-    void shouldBeDefaultTemperature() {
+    void CurrentConditionsDisplayTest() {
         // given
-        double defaultTemperature = 0.0d;
-        PhoneDisplay phoneDisplay = new PhoneDisplay(weatherStation);
-        weatherStation.add(phoneDisplay);
+        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+        weatherData.setMeasurements(80, 70, 30);
 
         // when
-        weatherStation.notifyObservers();
-        double actualTemperature = phoneDisplay.getTemperature();
+        String displayResult = currentConditionsDisplay.display();
 
         // then
-       assertEquals(defaultTemperature, actualTemperature);
+        String expectedDisplayResult = "Current conditions: 80.0F degrees and 70.0% humidity";
+        assertEquals(expectedDisplayResult, displayResult);
     }
 
     @Test
-    void shouldBeSameTemperature() {
+    void ForecastDisplayTest() {
         // given
-        double temperature = 26.5d;
-        PhoneDisplay phoneDisplay = new PhoneDisplay(weatherStation);
-        weatherStation.setTemperature(temperature);
-        weatherStation.add(phoneDisplay);
+        ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
+        weatherData.setMeasurements(80, 70, 30);
 
         // when
-        weatherStation.notifyObservers();
-        double actualTemperature = phoneDisplay.getTemperature();
+        String displayResult = forecastDisplay.display();
 
         // then
-       assertEquals(temperature, actualTemperature);
+        String expectedDisplayResult = "Forecast: Improving weather on the way!";
+        assertEquals(expectedDisplayResult, displayResult);
     }
+
 }

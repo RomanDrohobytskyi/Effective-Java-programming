@@ -11,7 +11,6 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static effective.java.com.functional.programming.bank.module.util.UserUtils.isMale;
 import static java.util.stream.Collectors.*;
 
 public class UserService {

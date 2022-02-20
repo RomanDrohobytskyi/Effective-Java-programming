@@ -10,7 +10,8 @@ import java.time.LocalDate;
 import java.time.Month;
 import java.util.*;
 
-import static effective.java.com.functional.programming.bank.module.model.Gender.*;
+import static effective.java.com.functional.programming.bank.module.model.Gender.FEMALE;
+import static effective.java.com.functional.programming.bank.module.model.Gender.MALE;
 import static org.junit.jupiter.api.Assertions.*;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)

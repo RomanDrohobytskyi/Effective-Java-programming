@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.time.Month;
 import java.util.*;
 
-import static effective.java.com.functional.programming.bank.module.model.Gender.*;
+import static effective.java.com.functional.programming.bank.module.model.Gender.MALE;
 import static java.util.Comparator.comparing;
 import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.*;

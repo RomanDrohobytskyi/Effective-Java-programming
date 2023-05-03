@@ -7,9 +7,14 @@
     <groupId>effective.java.com</groupId>
     <artifactId>effective-java</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>design-patterns</module>
+        <module>java-core</module>
+    </modules>
 
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>19</java.version>
         <maven.compiler.source>.19</maven.compiler.source>
         <maven.compiler.target>1.9</maven.compiler.target>
     </properties>

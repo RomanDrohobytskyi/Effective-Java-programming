@@ -12,36 +12,38 @@ public class SingletonTest {
     private static Activator activator;
 
     @BeforeAll
-    public static void initializeSingletons(){
+    public static void initializeSingletons() {
         connector = Connector.getInstance();
         activator = Activator.getInstance();
     }
 
     @Test
-    public void shouldBeInitialized(){
-        assertNotNull(connector);
-        assertNotNull(activator);
+    public void shouldBeInitialized() {
+        assertNotNull(connector, "Connector could not be a null!");
+        assertNotNull(activator, "Activator could not be a null!");
     }
 
     @Test
-    public void lazilyInitialization(){
+    public void lazilyInitialization() {
         System.out.println(connector.toString());
     }
 
     @Test
-    public void eagerlyInitialization(){
+    public void eagerlyInitialization() {
         System.out.println(activator.toString());
     }
 
     @Test
-    public void shouldBeSameInstanceConnector(){
+    public void shouldBeSameInstanceConnector() {
         Connector secondConnector = Connector.getInstance();
+        Connector thirdConnector = Connector.getInstance();
 
         assertSame(secondConnector, connector);
+        assertSame(thirdConnector, connector);
     }
 
     @Test
-    public void shouldBeSameInstanceActivator(){
+    public void shouldBeSameInstanceActivator() {
         Activator secondActivator = Activator.getInstance();
 
         assertSame(secondActivator, activator);

@@ -1,5 +1,6 @@
 package effective.java.com.strategy.payment;
 
+import effective.java.com.strategy.model.PaymentInfo;
 import effective.java.com.strategy.model.User;
 import lombok.Builder;
 import lombok.Getter;
@@ -7,6 +8,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+
+import static effective.java.com.strategy.model.PaymentInfo.successfulPayment;
 
 @Builder
 @Getter
@@ -17,9 +20,7 @@ public class CardPayment implements Payment {
     private final String cardNumber;
 
     @Override
-    public void pay(BigDecimal price) {
-        System.out.println("User: " + user.getEmail());
-        System.out.println("Paid: " + price + " USD");
-        System.out.println("By card with " + cardNumber + " card number.");
+    public PaymentInfo pay(BigDecimal totalPrice) {
+        return successfulPayment(totalPrice, this.getClass().getSimpleName());
     }
 }

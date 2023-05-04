@@ -1,11 +1,14 @@
 package effective.java.com.strategy.payment;
 
+import effective.java.com.strategy.model.PaymentInfo;
 import effective.java.com.strategy.model.User;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 
 import java.math.BigDecimal;
+
+import static effective.java.com.strategy.model.PaymentInfo.successfulPayment;
 
 @Builder
 @Getter
@@ -18,9 +21,7 @@ public class PeoPay implements Payment {
     }
 
     @Override
-    public void pay(BigDecimal price) {
-        System.out.println("User e-mail address: " + user.getEmail());
-        System.out.println("Paid: " + price);
-        System.out.println("Paid by PeoPay payment.");
+    public PaymentInfo pay(BigDecimal totalPrice) {
+        return successfulPayment(totalPrice, this.getClass().getSimpleName());
     }
 }

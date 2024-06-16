@@ -7,6 +7,7 @@ import effective.java.com.decorator.decorators.Beverage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DisplayName("Tests for Decorator Design Pattern")
@@ -18,8 +19,8 @@ public class DecoratorTest {
         Espresso espresso = new Espresso();
 
         // then
-        assertEquals(Espresso.COST, espresso.cost());
-        assertEquals("Espresso", espresso.description());
+        assertThat(espresso.cost()).isEqualTo(Espresso.COST);
+        assertThat(espresso.description()).isEqualTo("Espresso");
     }
 
     @Test

@@ -1,6 +1,6 @@
-package effective.java.com.observer.observable;
+package effective.java.com.head.first.examples.observer.observable;
 
-import effective.java.com.observer.Observer;
+import effective.java.com.head.first.examples.observer.Observer;
 
 public interface Observable {
     void addObserver(Observer observer);

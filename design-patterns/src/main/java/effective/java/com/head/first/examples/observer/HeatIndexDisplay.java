@@ -1,6 +1,6 @@
-package effective.java.com.observer;
+package effective.java.com.head.first.examples.observer;
 
-import effective.java.com.observer.observable.WeatherData;
+import effective.java.com.head.first.examples.observer.observable.WeatherData;
 
 public class HeatIndexDisplay implements Observer, DisplayElement {
     private final WeatherData weatherStation;

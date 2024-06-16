@@ -6,7 +6,7 @@ import effective.java.com.abstractfactory.model.button.WindowsOSButton;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class AbstractFactoryTest {
     private static AbstractFactory macButtons;
@@ -20,11 +20,11 @@ class AbstractFactoryTest {
 
     @Test
     public void shouldBeMacButtons() {
-        assertTrue(macButtons.getButton() instanceof MacOSButton);
+        assertThat(macButtons.getButton()).isInstanceOf(MacOSButton.class);
     }
 
     @Test
     public void shouldWindowsButtons() {
-        assertTrue(windowsButtons.getButton() instanceof WindowsOSButton);
+        assertThat(windowsButtons.getButton()).isInstanceOf(WindowsOSButton.class);
     }
 }

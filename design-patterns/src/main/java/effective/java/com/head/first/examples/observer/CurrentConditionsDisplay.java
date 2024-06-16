@@ -1,15 +1,15 @@
-package effective.java.com.observer;
+package effective.java.com.head.first.examples.observer;
 
-import effective.java.com.observer.observable.WeatherData;
+import effective.java.com.head.first.examples.observer.observable.Observable;
 
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
-    private final WeatherData weatherStation;
+    private final Observable weatherStation;
     private float temperature;
     private float humidity;
 
-    public CurrentConditionsDisplay(WeatherData weatherStation) {
-        this.weatherStation = weatherStation;
-        weatherStation.addObserver(this);
+    public CurrentConditionsDisplay(Observable weatherData) {
+        this.weatherStation = weatherData;
+        weatherData.addObserver(this);
     }
 
     @Override

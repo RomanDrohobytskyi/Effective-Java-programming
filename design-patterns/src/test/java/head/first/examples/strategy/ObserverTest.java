@@ -1,11 +1,13 @@
-import effective.java.com.observer.CurrentConditionsDisplay;
-import effective.java.com.observer.ForecastDisplay;
-import effective.java.com.observer.HeatIndexDisplay;
-import effective.java.com.observer.observable.WeatherData;
+package head.first.examples.strategy;
+
+import effective.java.com.head.first.examples.observer.CurrentConditionsDisplay;
+import effective.java.com.head.first.examples.observer.ForecastDisplay;
+import effective.java.com.head.first.examples.observer.HeatIndexDisplay;
+import effective.java.com.head.first.examples.observer.observable.WeatherData;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ObserverTest {
     private WeatherData weatherData;
@@ -23,29 +25,31 @@ public class ObserverTest {
         HeatIndexDisplay heatIndexDisplay = new HeatIndexDisplay(weatherData);
 
         // then
-        assertEquals(3, weatherData.getObservers().size());
-        assertTrue(weatherData.getObservers().contains(currentConditionsDisplay));
-        assertTrue(weatherData.getObservers().contains(forecastDisplay));
-        assertTrue(weatherData.getObservers().contains(heatIndexDisplay));
+        assertThat(weatherData.getObservers()).isNotEmpty();
+        assertThat(weatherData.getObservers()).hasSize(3);
+        assertThat(weatherData.getObservers()).contains(currentConditionsDisplay);
+        assertThat(weatherData.getObservers()).contains(forecastDisplay);
+        assertThat(weatherData.getObservers()).contains(heatIndexDisplay);
     }
 
     @Test
     void shouldRemoveObserver() {
         // given
-        CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
+        CurrentConditionsDisplay observerToBeRemoved = new CurrentConditionsDisplay(weatherData);
         ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
 
         // when
-        weatherData.removeObserver(currentConditionsDisplay);
+        weatherData.removeObserver(observerToBeRemoved);
 
         // then
-        assertEquals(1, weatherData.getObservers().size());
-        assertFalse(weatherData.getObservers().contains(currentConditionsDisplay));
-        assertTrue(weatherData.getObservers().contains(forecastDisplay));
+        assertThat(weatherData.getObservers()).isNotEmpty();
+        assertThat(weatherData.getObservers()).hasSize(1);
+        assertThat(weatherData.getObservers()).contains(forecastDisplay);
+        assertThat(weatherData.getObservers()).doesNotContain(observerToBeRemoved);
     }
 
     @Test
-    void CurrentConditionsDisplayTest() {
+    void currentConditionsDisplayTest() {
         // given
         CurrentConditionsDisplay currentConditionsDisplay = new CurrentConditionsDisplay(weatherData);
         weatherData.setMeasurements(80, 70, 30);
@@ -55,11 +59,11 @@ public class ObserverTest {
 
         // then
         String expectedDisplayResult = "Current conditions: 80.0F degrees and 70.0% humidity";
-        assertEquals(expectedDisplayResult, displayResult);
+        assertThat(displayResult).isEqualTo(expectedDisplayResult);
     }
 
     @Test
-    void ForecastDisplayTest() {
+    void forecastDisplayTest() {
         // given
         ForecastDisplay forecastDisplay = new ForecastDisplay(weatherData);
         weatherData.setMeasurements(80, 70, 30);
@@ -69,7 +73,7 @@ public class ObserverTest {
 
         // then
         String expectedDisplayResult = "Forecast: Improving weather on the way!";
-        assertEquals(expectedDisplayResult, displayResult);
+        assertThat(displayResult).isEqualTo(expectedDisplayResult);
     }
 
 }

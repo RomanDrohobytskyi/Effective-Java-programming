@@ -1,4 +1,4 @@
-package effective.java.com.factorymethod.model;
+package effective.java.com.factory.method.model;
 
 import lombok.RequiredArgsConstructor;
 

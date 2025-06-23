@@ -1,6 +1,6 @@
-package effective.java.com.factorymethod.factory;
+package effective.java.com.factory.method.factory;
 
-import effective.java.com.factorymethod.model.*;
+import effective.java.com.factory.method.model.*;
 
 public class ComputerFactory {
 

@@ -1,6 +1,6 @@
-import effective.java.com.factorymethod.factory.ComputerFactory;
-import effective.java.com.factorymethod.model.Computer;
-import effective.java.com.factorymethod.model.ComputerType;
+import effective.java.com.factory.method.factory.ComputerFactory;
+import effective.java.com.factory.method.model.Computer;
+import effective.java.com.factory.method.model.ComputerType;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

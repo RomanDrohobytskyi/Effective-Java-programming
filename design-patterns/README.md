@@ -1,3 +1,55 @@
+# Design patterns
+
+This module covers some design pattern implementation in Java.
+
+
+##  Patterns Covered
+
+<table>
+  <tr>
+    <td>
+
+### Behavioral Patterns:
+- [x] Chain of Responsibility
+- [x] Observer
+- [x] Strategy
+- [ ] Command
+- [ ] Interpreter
+- [ ] Iterator
+- [ ] Mediator
+- [ ] Memento
+- [ ] State
+- [ ] Template Method
+- [ ] Visitor
+
+    </td>
+    <td>
+
+### Structural Patterns:
+- [x] Adapter
+- [x] Decorator
+- [x] Flyweight
+- [ ] Bridge
+- [ ] Composite
+- [ ] Facade
+- [ ] Proxy
+
+    </td>
+    <td>
+
+### Creational Patterns
+
+- [x] Abstract Factory
+- [x] Factory Method
+- [x] Singleton
+- [ ] Builder
+- [ ] Prototype
+
+    </td>
+  </tr>
+</table>
+
+
 - **Singleton Pattern**:  
 Ensures a class has only one instance and provides a global point of access to it.
 
@@ -53,33 +105,3 @@ Mediator
 Memento
 Prototype
 Visitor
-
-
-# Creational Patterns:
-Abstract Factory Pattern
-Builder Pattern
-Factory Method Pattern
-Prototype Pattern
-Singleton Pattern
-
-# Structural Patterns:
-- Adapter Pattern  
-- Bridge Pattern  
-- Composite Pattern  
-- Decorator Pattern
-- Facade Pattern
-- Flyweight Pattern
-- Proxy Pattern
-
-# Behavioral Patterns:
-- Chain of Responsibility Pattern
-- Command Pattern
-- Interpreter Pattern
-- Iterator Pattern
-- Mediator Pattern
-- Memento Pattern
-- Observer Pattern
-- State Pattern
-- Strategy Pattern
-- Template Method Pattern
-- Visitor Pattern

@@ -3,12 +3,12 @@ package effective.java.com.chain.of.responsibility.validation;
 import static java.util.Objects.isNull;
 
 public class AlphanumericValidator implements Validator {
-    private final String ALPHANUMERIC_REGEX = "[a-zA-Z0-9]+";
+    private static final String CONTAINS_LETTER_AND_DIGIT = "^(?=.*[a-zA-Z])(?=.*\\d).*$";
     private Validator nextValidator;
 
     @Override
     public boolean isValid(String input) {
-        if (input.matches(ALPHANUMERIC_REGEX)) {
+        if (input.matches(CONTAINS_LETTER_AND_DIGIT)) {
             System.out.println("AlphanumericValidator: Input is alphanumeric.");
             return isNull(nextValidator) || nextValidator.isValid(input);
         } else {

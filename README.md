@@ -17,5 +17,7 @@ A collection of Java implementations inspired by **Joshua Bloch's _Effective Jav
   Demonstrations of:
   - OOP
 
+- **Effective Java Concepts**
+ - Algorithm tasks from LeetCode
 - **Tests**  
   Fully JUnit‑based test suites that confirm correct behavior and edge cases.
